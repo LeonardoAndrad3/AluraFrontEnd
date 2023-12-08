@@ -12,17 +12,12 @@ Repositório para armazenar todos os conteúdos estudados e realizados na forma�
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
-
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
 <p>Tecnologias usadas : </p>
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
-
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
 - HTML
 - CSS
