@@ -6,7 +6,7 @@ Repositório para armazenar todos os conteúdos estudados e realizados na forma�
 # Formação Partindo do zero css&html
 
 
-<h2> projeto Portfolio </h2>
+<h2> Projeto Portfólio </h2>
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/0d524e35-28f8-44f5-8b50-72b76679cf71)
 
