@@ -5,29 +5,21 @@ Repositório para armazenar todos os conteúdos estudados e realizados na forma�
 
 # Formação Partindo do zero css&html
 
+
+<h2> Projeto Portfólio </h2>
+
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/0d524e35-28f8-44f5-8b50-72b76679cf71)
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
 
-<<<<<<< HEAD
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
-
-=======
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
->>>>>>> 9610d55bba8a715176b0d45bd9dd8f02053dc127
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
 <p>Tecnologias usadas : </p>
 
-<<<<<<< HEAD
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
-
-=======
 - HTML
 - CSS
 
 ##
->>>>>>> 9610d55bba8a715176b0d45bd9dd8f02053dc127
