@@ -105,6 +105,7 @@ header > nav{
     font-size: 24px;
     padding: 16px 0;
     border-radius: 8px;
+
     text-decoration: none;
     color: var(--color-text-p1);
     font-family: var(--font-primary);
@@ -112,8 +113,14 @@ header > nav{
     font-size: 26px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     transition: 100ms;
+
+}
+
+.buttons > a > img{
+    width: 40px;
 }
 
 .buttons > a:hover{
