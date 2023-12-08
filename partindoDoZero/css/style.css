@@ -50,7 +50,7 @@ header > nav{
 }
 
 .content{
-    padding: 5% 15%;
+    padding: 5% 20%;
 }
 
 
@@ -69,7 +69,6 @@ header > nav{
 .mainContent > section{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
     min-height: 620px;
     gap: 20px;
     text-align: justify;
@@ -136,20 +135,17 @@ footer{
 
 @media (max-width: 1200px) {
 
+    .content{
+        padding: 0%;
+    }
+
     .mainContent{
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .imgJoana{
         width: 70%;
-    }
-
-    .mainContent > section > h1{
-        font-size: 3.5vh;
-    }
-
-    .mainContent > section > p{
-        font-size: 3vh;
     }
 
     header{
