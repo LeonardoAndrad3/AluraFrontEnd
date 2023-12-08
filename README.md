@@ -1,19 +1,33 @@
-# AluraFrontEnd
+# AluraFrontEnd 🖥️ 🎨
 Repositório para armazenar todos os conteúdos estudados e realizados na formação frontend da alura
 
+- Acesse: https://alura-front-end-eosin.vercel.app/
 
 # Formação Partindo do zero css&html
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/64a90d59-fe6d-4869-8343-6d6b2e1b6e88)
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/0d524e35-28f8-44f5-8b50-72b76679cf71)
+
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
+
 <<<<<<< HEAD
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f0ad5e4-0aa4-4421-9359-3de8818750ed)
+
 =======
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
+>>>>>>> 9610d55bba8a715176b0d45bd9dd8f02053dc127
 
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
+<p>Tecnologias usadas : </p>
 
+<<<<<<< HEAD
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/9f7898a1-8b58-4815-85b8-60a31417c784)
 
-# Responsivo
+![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/d7eedb00-e7fb-4c37-9e0a-721183e00c59)
+=======
+- HTML
+- CSS
 
-![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/cfd14c56-344d-4591-9340-745c92d80a16)
->>>>>>> 6407fb4968734f28975c1d5ad654994f63db7946
+##
+>>>>>>> 9610d55bba8a715176b0d45bd9dd8f02053dc127

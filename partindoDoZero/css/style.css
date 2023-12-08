@@ -50,7 +50,7 @@ header > nav{
 }
 
 .content{
-    padding: 5% 20%;
+    padding: 3% 15%;
 }
 
 
@@ -69,7 +69,8 @@ header > nav{
 .mainContent > section{
     display: flex;
     flex-direction: column;
-    min-height: 620px;
+    min-height: 700px;
+    max-width: 600px;
     gap: 20px;
     text-align: justify;
 }
