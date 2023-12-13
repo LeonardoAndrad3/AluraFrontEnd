@@ -3,8 +3,12 @@ Repositório para armazenar todos os conteúdos estudados e realizados na forma�
 
 - Acesse: https://alura-front-end-eosin.vercel.app/
 
-# Formação Partindo do zero css&html
+<p>Tecnologias usadas : </p>
+- HTML
+- CSS
 
+
+# Formação Partindo do zero css&html
 
 <h2> Projeto Portfólio </h2>
 
@@ -16,10 +20,11 @@ Repositório para armazenar todos os conteúdos estudados e realizados na forma�
 
 ![image](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/38052aba-8213-4f89-a123-0b18ee6285ff)
 
-<p>Tecnologias usadas : </p>
-
-
-- HTML
-- CSS
 
 ##
+
+<h2>Alura plus</h2>
+
+![screencapture-127-0-0-1-5501-aluraPlus-index-html-2023-12-13-15_20_17](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/f0b8fd67-306e-4d86-8c19-32b127130ee6)
+
+![screencapture-127-0-0-1-5501-aluraPlus-index-html-2023-12-13-15_21_05](https://github.com/LeonardoAndrad3/AluraFrontEnd/assets/78766172/a30d13d0-d1a5-4fe2-94db-ff88c88857e7)
