@@ -2,8 +2,9 @@
 Repositório para armazenar todos os conteúdos estudados e realizados na formação frontend da alura
 
 <p>Tecnologias usadas : </p>
-- HTML
+
 - CSS
+- HTML
 
 # Formação Partindo do zero css&html
 
