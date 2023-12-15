@@ -1,0 +1,62 @@
+
+
+.heading{
+    background-color: var(--content-background-second);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+}
+
+.iconSpacing{
+    padding: 1em;
+}
+
+.heading__menu-hamburguer{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/menu.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading__content{
+    display: flex;
+    align-items: center;
+}
+
+.list-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+/* O ~ é como se fosse if no css */
+.content__bottom:checked ~ .list-menu{
+    display: block;
+}
+
+.list-menu__title,
+.list-menu__item{
+    background-color: var(--content-background-second);
+    padding: 1.4em;
+}
+
+.list-menu__title{
+    color: var(--title-color-primary);
+    font-weight: 700;
+}
+
+.list-menu__link{
+    background: var(--content-gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.content__bottom{
+    display: none;
+}
