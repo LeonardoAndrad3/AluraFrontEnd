@@ -1,0 +1,119 @@
+.carrossel__title{
+    background: var(--content-background-second);
+    color: var(--title-color-primary);
+    text-transform: uppercase;
+    padding: 1.5em 0 .5em 0 ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-next{
+    display: none;
+}
+
+.swiper-button-prev{
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: .8em 0;
+}
+
+.card{
+    border-radius: 10px;
+    background: var(--content-background-second);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
+    margin: 2em;
+    padding: 1em;
+}
+
+.card__describe{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.describe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.describe__title{
+    color: var(--title-color-primary);
+    font-weight: 700;
+}
+
+.describe__title-book{
+    font-weight: 700;
+    color: var(--subTitle-color-primary);
+    margin: .5em 0;
+}
+
+.describe__text{
+    font-size: 14px;
+}
+
+.card__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__list-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.bottom__anchor{
+    text-align: center;
+    font-weight: 700;
+    padding: 1em 1.6em;
+    text-decoration: none;
+    color: var(--content-background-second);
+    background: var(--title-color-primary);
+
+}
+
+.list-bottom__item{
+
+    margin: 0 .5em;
+
+}
+
+.topics{
+    background: var(--content-gradient-primary);
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.topics__title{
+    font-weight: 300;
+    color: var(--content-background-second);
+    margin-bottom: 1em;
+}
+
+.topics__list-visited{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-visited__item{
+    margin: 2em .5em;
+}
+
+.list-visited__item a{
+    color: var(--content-background-second);
+    text-decoration: none;
+    background: var(--title-color-primary);
+    padding: 1.5em;
+    font-size: 14px;
+    font-weight: 700;
+}
+

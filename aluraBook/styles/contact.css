@@ -1,0 +1,34 @@
+.contact{
+    background: var(--content-background-second);
+    padding: 1.5em;
+    border-bottom: solid 1px var(--color-text);
+}
+
+.contact__title,.contact__text{
+    background: var(--content-gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact__title{
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+.contact__text{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.topics__search{
+    border: solid 1px var(--subTitle-color-primary);
+    color: var(--subTitle-color-primary);
+}
+
+.topics__search::placeholder{
+    background: url("../img/email.svg") no-repeat;
+    text-align: start;
+    color: var(--subTitle-color-primary);
+    background-position: 0%;
+}
