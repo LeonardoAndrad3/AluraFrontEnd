@@ -11,7 +11,7 @@
 }
 
 .banner__text{
-    font-weight: 400;
+    font-weight: 500;
     margin: 1em 0;
 }
 
@@ -20,13 +20,14 @@
     border: 1px solid var(--color-text-white);
     color: var(--color-text-white);
     border-radius: 24px;
-    padding: 1em;
+    padding: 1.5em;
     margin: 1em 0 0 0;
     width: 100%;
+    max-width: 450px;
 }
 
 .banner__search::placeholder{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     font-family: var(--font-primary);
     text-align: center;
@@ -38,5 +39,19 @@
 
 .banner__content-text{
     padding: 0 1em;
+}
+
+@media (min-width: 1024px) {
+    .banner{
+        padding: 6em 0;
+    }
+
+    .banner__title{
+        font-size: 36px;
+    }
+
+    .banner__search::placeholder{
+        background-position: 18%;
+    }
 }
 

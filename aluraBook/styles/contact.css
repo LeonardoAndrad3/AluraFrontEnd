@@ -21,14 +21,42 @@
     margin: 1em 0;
 }
 
-.topics__search{
-    border: solid 1px var(--subTitle-color-primary);
-    color: var(--subTitle-color-primary);
+@media (min-width: 1024px) {
+    .contact{
+        padding: 3em 7em;
+        display: grid;
+        grid-template-columns: 45% 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact__title{
+        font-size: 24px;
+    }
+
+    .topics__search{
+        width: 95%;
+        position: relative;
+        margin: 0 0 0 auto;
+    }
 }
 
-.topics__search::placeholder{
-    background: url("../img/email.svg") no-repeat;
-    text-align: start;
-    color: var(--subTitle-color-primary);
-    background-position: 0%;
+@media (min-width: 1444px) {
+    
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .topics__search{
+        margin: 0;
+    }
+
+    .contact > div{
+        width: 22vw;
+    }
+    
+    .contact__title{
+        width: fit-content;
+    }
 }

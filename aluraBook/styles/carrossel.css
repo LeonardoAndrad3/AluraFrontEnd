@@ -12,11 +12,7 @@
     width: 100%;
 }
 
-.swiper-button-next{
-    display: none;
-}
-
-.swiper-button-prev{
+.swiper-button-next,.swiper-button-prev{
     display: none;
 }
 
@@ -56,6 +52,11 @@
     margin: .5em 0;
 }
 
+.describe__img{
+    padding: .5em 0;
+    width: 30%;
+}
+
 .describe__text{
     font-size: 14px;
 }
@@ -77,43 +78,74 @@
     text-decoration: none;
     color: var(--content-background-second);
     background: var(--title-color-primary);
-
 }
 
 .list-bottom__item{
-
     margin: 0 .5em;
+}
+
+@media (min-width: 1024px) {
+    .carrossel__title{
+        font-size: 26px;
+        padding: 2em 0 1em 0;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 4em 0;
+    }
+
+    .swiper{
+        width: 65%;
+    }
+
+    .swiper-slide > img{
+        width: 80%;
+    }
+
+    .swiper-button-next,.swiper-button-prev{
+        display: block;
+        top: 60%;
+    }
+
+    .card{
+        margin: 2em auto;
+        width: 50%;
+    }
+
 
 }
 
-.topics{
-    background: var(--content-gradient-primary);
-    padding: 1.5em 0;
-    text-align: center;
-}
+@media (min-width: 1440px) {
 
-.topics__title{
-    font-weight: 300;
-    color: var(--content-background-second);
-    margin-bottom: 1em;
-}
+    .carrossel__content{
+        display: flex;
+        padding: 2em 12vw;
+        margin: 1em 0 5em 0;
+        align-items: center;
+    }
+    
+    .swiper-pagination{
+        padding: 0 0 1em 0;
+    }
 
-.topics__list-visited{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .swiper-slide > img{
+        width: 80%;
+    }
 
-.list-visited__item{
-    margin: 2em .5em;
-}
+    
+    .swiper-pagination{
+        margin: 1em 0;
+    }
 
-.list-visited__item a{
-    color: var(--content-background-second);
-    text-decoration: none;
-    background: var(--title-color-primary);
-    padding: 1.5em;
-    font-size: 14px;
-    font-weight: 700;
-}
+    .card{
+        margin: auto auto 0 2em;
+    }
+    
+    .describe__title{
+        font-size: 32px;
+    }
 
+    .describe__text{
+        font-size: 16px;
+    }
+}
