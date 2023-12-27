@@ -47,7 +47,6 @@
 .list-menu__item:hover > .list-menu__link{
     -webkit-text-fill-color: var(--color-text-white);
     text-decoration: none;
-
 }
 
 .heading__content{

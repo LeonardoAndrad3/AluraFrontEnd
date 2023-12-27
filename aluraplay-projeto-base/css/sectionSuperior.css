@@ -1,0 +1,11 @@
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    z-index: 1;
+    width: 100%;
+    border: none;
+}
+
