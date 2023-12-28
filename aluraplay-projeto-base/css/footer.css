@@ -2,5 +2,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-top: 4rem;
+    margin: 4rem 0 6rem 0;
+    border-top: solid 1px var(--section-upper);
+}
+
+.rodape__container p{
+    color: var(--white);
+}
+
+.rodape__container h2{
+    color: var(--section-upper);
 }
 

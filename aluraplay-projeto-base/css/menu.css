@@ -2,8 +2,14 @@
     position: fixed;
     bottom: 0%;
     height: 74px;
-    width: 100%;
-    overflow: auto;
+    width: 100vw;
+    overflow: hidden;
+    background: var(--header-color-hover);
+    font-size: 14px;
+}
+
+.menu__container:hover{
+    overflow-y: auto;
 }
 
 .menu__lista{
@@ -24,6 +30,13 @@
     display: flex;
     flex-direction: column;
     gap: .4em;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.menu__itens:hover {
+    color: var(--header-color-hover);
+    background-color: var(--header-color);
 }
 
 @media (min-width: 834px) {
@@ -52,7 +65,7 @@
         flex-direction: row;
         align-items: center;
         gap: .5em;
-        padding: .5em 0;
+        padding: .5em .3em;
     }
 
     .menu__lista{

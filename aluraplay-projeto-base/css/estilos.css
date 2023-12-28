@@ -1,32 +1,50 @@
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
+    --azul-escuro: #ffffff;
     --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+    --azul-claro: #ffffff;
     --cinza-texto: #444444;
-    --cinza-claro: #ECECEC;
-    --white: #ffffff;
+    --cinza-claro: #000000;
+    --black: #5f5f5f;
+    --white: #004040;
+    --header-color: #BFBE9C;
+    --header-color-hover: #4A4633;
+    --section-upper: #802922;
+    --section-upper-hover: #60292A;
     box-sizing: border-box;
+}
+
+*::-webkit-scrollbar{
+    position: absolute;
+    background-color: transparent;
+    width: .7em;
+    height: .5em;
+}
+
+*::-webkit-scrollbar-thumb{
+    position: absolute;
+    background: rgba(110, 110, 110, 0.596);
+    border-radius: 8px;
 }
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: var(--azul-claro);
+    background: var(--header-color);
     position: relative;
     width: 100%;
-    height: 100vh;
     font-size: 14px;
-    color: white;
+    color: var(--header-color);
     box-sizing: border-box;
     text-align: center;
-    overflow: auto;
 }
+
+
 
 /* CABEÇALHO */
 
 .cabecalho__container {
-    background-color: white;
+    background-color: var(--header-color);
     height: 80px;
     width: 100%;
     padding: 0 25px;
@@ -42,21 +60,28 @@ body {
 .pesquisar__input {
     width: 260px;
     height: 32px;
-    border: 1px solid rgb(211, 211, 211);
+    background: transparent;
+    border: 1px solid var(--white);
     font-size: 16px;
     padding: 3px 8px;
-    border: 1px solid rgb(211, 211, 211);
+    border-radius: 8px 0px 0px 8px;
+    border-right: 0;
+}
+
+.pesquisar__input::placeholder{
+    color: var(--white);
 }
 
 .pesquisar__label {
     background-image: url(../img/cabecalho/search.png);
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid rgb(211, 211, 211);
-    background-color: #F9F9F9;
     border-left: none;
     padding: 8px 18px 5px;
     cursor: pointer;
+    border: 1px solid var(--white);
+    border-left: 0;
+    border-radius: 0px 8px 8px 0px;
 }
 
 .cabecalho__audio {
@@ -95,15 +120,6 @@ body {
 
 /* MENU LATERAL */
 
-.menu__container {
-    background-color: var(--azul-escuro);
-    font-size: 14px;
-}
-
-.menu__itens:hover {
-    background-color: var(--azul-medio);
-    transition: .5s;
-}
 
 .icone__inicio::before {
     content: url(../img/menu/home.png);
@@ -183,60 +199,60 @@ body {
 
 /* SECAO SUPERIOR */
 
-.superior__secao__container {
-    height: 63px;
-    color: white;
-    font-size: 16px;
-    background-color: var(--white);
-    position: fixed;
-    top: 80px;
-    left: 0px;
-
-}
-
 .superior__item {
-    color: var(--cinza-texto);
+    color: var(--header-color);
     font-size: 16px;
-    background-color: white;
+    background-color: var(--section-upper);
     box-shadow: 1px 3px 6px -4px #444444;
     border-radius: 20px;
     padding: 8px 20px;
     cursor: pointer;
+    transition: .1s;
 }
 
 .superior__item:hover {
     color: white;
-    background-color: var(--azul-escuro);
-    transition: .5s;
+    background-color: var(--section-upper-hover);
 }
 
 /* SEÇÃO VÍDEOS */
 
 .videos__container {
-    color: black;
-    padding: 10% 0 3% 10%;
+    width: auto;
+    color: var(--color-text);
+    padding: 20% 10% 3% 10%;
 }
 
 .videos__item{
     background: transparent;
-    transition: .5s;
+    transition: .2s;
     transition-property: transform background;
 }
 
 .videos__item:hover {
-    transform: scale(1.05);
-    background-color: #e8e8e8;
+    transform: scale(1.01);
+    background-color: var(--header-color-hover);
     box-shadow: 1px 1px 10px -5px black;
+}
+
+.videos__item:hover > .descricao-video h3{
+    color: var(--header-color);
+}
+
+.videos__item:hover > .descricao-video p{
+    color: var(--header-color);
+}
+
+.descricao-video h3 , .descricao-video p{
+    color: var(--white);
 }
 
 .descricao-video h3 {
     font-weight: 700;
-    color: #444444;
 }
 
 .descricao-video p {
     font-size: 14px;
-    color: #444444;
 }
 
 /* RODAPÉ */
@@ -247,7 +263,6 @@ body {
     color: var(--cinza-texto);
     line-height: 1.5;
     font-size: 16px;
-    background-color: white;
 }
 
 .rodape__titulo {
@@ -278,15 +293,13 @@ body {
     /* ESTILOS DA SECAO SUPERIOR */
 
     .superior__secao__container {
-        border-top: var(--azul-medio) 1px solid;
-        border-bottom: var(--azul-medio) 1px solid;
         width: auto;
-        left: 82px;
     }
 
     /*ESTILOS SEÇÃO VÍDEOS */
 
     .videos__container {
+        padding-top: 10rem;
         padding-left: 90px;
         padding-right: 17px;
     }
@@ -304,14 +317,10 @@ body {
 
     /* SEÇÃO SUPERIOR */
 
-    .superior__secao__container {
-        left: 247px;
-    }
-
     /* ESTILOS DO MENU LATERAL */
 
     .menu__lista {
-        border-bottom: 1.5px solid var(--azul-medio);
+        border-bottom: 1.5px solid var(--header-color);
     }
 
     /* ESTILOS VIDEOS */

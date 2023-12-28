@@ -1,11 +1,32 @@
 .superior__secao__container{
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    overflow-x: auto;
-    gap: 15px;
-    z-index: 1;
-    width: 100%;
-    border: none;
+    display: none;   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px 10px 0;
+    width: auto;
+}
+
+@media (min-width: 834px) {
+    .superior__secao__container{
+        display: flex;
+        background: var(--header-color);
+        position: fixed;
+        top: 80px;
+        left: 5.6rem;
+        right: 1.2rem;
+        align-items: center;
+        white-space: nowrap;
+        gap: 15px;
+        z-index: 1;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .superior__secao__container{
+        left: 15.5rem;
+        right: .7rem;
+    }
 }
 
