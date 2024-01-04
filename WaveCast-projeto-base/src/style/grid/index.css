@@ -1,6 +1,7 @@
 @import url("menu.css");
 @import url("secao.css");
 @import url("cartao.css");
+@import url("navbar.css");
 
 body{
     display: grid;
